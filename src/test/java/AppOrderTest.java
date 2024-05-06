@@ -13,11 +13,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AppOrderTest {
 
-    private WebDriver driver;
+    WebDriver driver;
 
     @BeforeAll
     public static void setupAll() {
-        WebDriverManager.chromedriver().driverVersion("124").setup();
+        WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
