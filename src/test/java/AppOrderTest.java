@@ -17,7 +17,7 @@ public class AppOrderTest {
 
     @BeforeAll
     public static void setupAll() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().driverVersion("124").setup();
     }
 
     @BeforeEach
